@@ -1,23 +1,16 @@
-SELECTION SHORT PROJESİ
-1) [22,27,16,2,18,6] -> Insertion Sort
-Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
-[22,27,16,2,18,6] 
-[2,27,16,22,18,6] 
-[2,6,16,22,18,27] 
-[2,6,16,18,22,27] 
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+5 sayısını root aldım.
 
-2) [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
-[7,3,5,8,2,9,4,15,6] 
-[2,3,5,8,7,9,4,15,6] 
-[2,3,4,8,7,9,5,15,6] 
-[2,3,4,5,7,9,8,15,6] 
+                                   5
+                                  / \
+                                 4   7
+                                /    / \
+                               3     6  8
+                              /          \
+                             2            9
+                            /
+                           1
+                          /
+                         0 
 
-MERGE SHORT PROJESİ
-3) Big-O gösterimini yazınız.
-Eleman sayısı n olduğunda, her eleman için en fazla (n-1) karşılaştırma yapılır. Algoritmanın tüm elemanlarını bu şekilde işlemesi gerektiğinde, toplam karşılaştırma sayısı (n-1) + (n-2) + ... + 1 olur, ki bu toplam (n * (n-1) / 2)'ye eşittir.
-Big-O gösterimi için en yüksek dereceli terimi göstermemiz lazım. Onun için formülden (n^2) geldiği için gösterimi O(n^2) olur.
-
-BINARY SEARCH TREE SHORT PROJESİ
-4)  Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? Yazınız.
-Dizi sıralandıktan sonraki hali [2, 6, 16, 18, 22, 27] olacaktır. 18 sayısı dizinin ortasındaki eleman olduğu için cevap "Average case" olacaktır.
 
